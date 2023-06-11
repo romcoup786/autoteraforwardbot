@@ -10,6 +10,6 @@ PostText ="""<b>{}🥰
 ✅ ᴊᴏɪɴ ɴᴏᴡ ꜰᴏʀ ᴍᴏʀᴇ ᴠɪᴅᴇᴏꜱ!
 {}
   </b>"""
-AuthUser = [1023650988,1958848922]
+AuthUser = [1023650988,5454116424]
 AdText = """<a href='{}'>🔞 Join Our Private Channel
 🔞 Join Our Private Channel</a>"""

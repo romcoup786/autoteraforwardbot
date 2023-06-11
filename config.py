@@ -1,4 +1,4 @@
-POSTCHANNEL = -1001898159485
+POSTCHANNEL = -1001842579641
 GENERALCHANNEL = "https://t.me/+DptrL_kyEEw5YWU1"
 PostText ="""<b>{}🥰
   

@@ -18,7 +18,7 @@ scope = ["https://spreadsheets.google.com/feeds",'https://www.googleapis.com/aut
 creds = ServiceAccountCredentials.from_json_keyfile_name("romcoup76
 .json", scope)
 client = gspread.authorize(creds)
-ak = client.open("Tera3rd Pro")
+ak = client.open("AkhilTeraForwardBot")
 general = ak.worksheet("general")
 channels = ak.worksheet("channels")
 

@@ -99,7 +99,7 @@ def fetchresult(m):
     
 
 
-@bot.message_handler(func=lambda message:True,chat_id=[1023650988,5454116424], content_types=['photo'])
+@bot.message_handler(func=lambda message:True,chat_id=[1023650988,608824855], content_types=['photo'])
 def command_default(m):
   photo_id = m.photo[-1].file_id
   OcaptionTitle = m.caption.split("\n")[0]
@@ -152,11 +152,11 @@ def Send_Post(m):
     bot.forward_message(chat_id = m.chat.id, from_chat_id = POSTCHANNEL, message_id = pstid)
     time.sleep(2)
   if m.chat.id in ChnlList:#try:
-    msg = bot.send_message(m.chat.id,AdText.format("https://t.me/+731-Ro8ZYrAzOTE1"),parse_mode="html")
+    msg = bot.send_message(m.chat.id,AdText.format("https://t.me/+skmOh5IZ5YY1ZDdl"),parse_mode="html")
     #UpdateAdTextMsgId(msg.id)
   else:#except:
     AddChannel(m.chat.id)
-    msg = bot.send_message(m.chat.id,AdText.format("https://t.me/+731-Ro8ZYrAzOTE1"),parse_mode="html")
+    msg = bot.send_message(m.chat.id,AdText.format("https://t.me/+skmOh5IZ5YY1ZDdl"),parse_mode="html")
     #UpdateAdTextMsgId(msg.id)
     
 
